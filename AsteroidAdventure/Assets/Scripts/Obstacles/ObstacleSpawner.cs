@@ -9,8 +9,11 @@ public class ObstacleSpawner : MonoBehaviour
     [SerializeField] float obstacleLifetime;
     [SerializeField] float minSpeed, maxSpeed;
 
+    [SerializeField] float delayTime;
+
     private void Start()
     {
+        /*
         var obsToSpawn = Random.Range(0, obstacle.Length);
         var currentSpawnpoint = Random.Range(0, obstacleSpawnpoints.Length);
         var obsSpeed = Random.Range(minSpeed, maxSpeed);
@@ -19,7 +22,9 @@ public class ObstacleSpawner : MonoBehaviour
         obstacleInstance.GetComponent<Obstacle>().speed = obsSpeed;
 
         Destroy(obstacleInstance, obstacleLifetime);
+        */
 
+        SpawnObstacle();
     }
 
     private void Update()
@@ -40,5 +45,14 @@ public class ObstacleSpawner : MonoBehaviour
         obstacleInstance.GetComponent<Obstacle>().speed = obsSpeed;
 
         Destroy(obstacleInstance, obstacleLifetime);
+
+        StartCoroutine(SpawnDelay(delayTime));
+    }
+
+    IEnumerator SpawnDelay(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        SpawnObstacle();
     }
 }

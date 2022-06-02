@@ -5,7 +5,8 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     Rigidbody obsRB;
-    [SerializeField] int Verticaldirection, horizontalDirection;
+    [SerializeField] int Verticaldirection, horizontalDirection, depthDirection;
+    [SerializeField] Material dangerZone;
     public float speed;
 
     private void Awake()
@@ -16,7 +17,7 @@ public class Obstacle : MonoBehaviour
     private void FixedUpdate()
     {
 
-        obsRB.velocity = new Vector3(horizontalDirection, Verticaldirection, 0) * speed;
+        obsRB.velocity = new Vector3(horizontalDirection, Verticaldirection, depthDirection) * speed;
     }
 
     private void OnTriggerEnter(Collider collider)
@@ -24,6 +25,11 @@ public class Obstacle : MonoBehaviour
         if (collider.gameObject.tag == "AttackZone")
         {
             Destroy(gameObject);
+        }
+
+        if (collider.gameObject.tag == "DangerZone")
+        {
+            GetComponent<MeshRenderer>().material = dangerZone;
         }
     }
 }

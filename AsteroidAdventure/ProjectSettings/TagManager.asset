@@ -6,6 +6,7 @@ TagManager:
   tags:
   - AttackZone
   - Obstacle
+  - DangerZone
   layers:
   - Default
   - TransparentFX
