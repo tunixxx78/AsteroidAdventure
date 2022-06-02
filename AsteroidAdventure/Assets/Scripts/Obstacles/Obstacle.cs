@@ -23,7 +23,7 @@ public class Obstacle : MonoBehaviour
     {
         if (collider.gameObject.tag == "AttackZone")
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 }
