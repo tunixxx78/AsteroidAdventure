@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody plrRb;
     JoystickManager joystickManager;
     [SerializeField] float moveSpeed;
+    [SerializeField] Transform startPosition;
+    [SerializeField] GameObject plr;
 
     private void Awake()
     {
@@ -53,6 +55,8 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Obstacle")
         {
             Destroy(gameObject);
+
+            //Instantiate(plr, startPosition.position, Quaternion.identity);
         }
     }
 }
