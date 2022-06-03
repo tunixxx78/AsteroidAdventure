@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 249549ff9ba68a840b06eccae9df0c8b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Incurved1
+    100004: Incurved10
+    100006: Incurved11
+    100008: Incurved12
+    100010: Incurved13
+    100012: Incurved14
+    100014: Incurved15
+    100016: Incurved16
+    100018: Incurved2
+    100020: Incurved3
+    100022: Incurved4
+    100024: Incurved5
+    100026: Incurved6
+    100028: Incurved7
+    100030: Incurved8
+    100032: Incurved9
+    400000: //RootNode
+    400002: Incurved1
+    400004: Incurved10
+    400006: Incurved11
+    400008: Incurved12
+    400010: Incurved13
+    400012: Incurved14
+    400014: Incurved15
+    400016: Incurved16
+    400018: Incurved2
+    400020: Incurved3
+    400022: Incurved4
+    400024: Incurved5
+    400026: Incurved6
+    400028: Incurved7
+    400030: Incurved8
+    400032: Incurved9
+    2100000: No Name
+    2300000: Incurved1
+    2300002: Incurved10
+    2300004: Incurved11
+    2300006: Incurved12
+    2300008: Incurved13
+    2300010: Incurved14
+    2300012: Incurved15
+    2300014: Incurved16
+    2300016: Incurved2
+    2300018: Incurved3
+    2300020: Incurved4
+    2300022: Incurved5
+    2300024: Incurved6
+    2300026: Incurved7
+    2300028: Incurved8
+    2300030: Incurved9
+    3300000: Incurved1
+    3300002: Incurved10
+    3300004: Incurved11
+    3300006: Incurved12
+    3300008: Incurved13
+    3300010: Incurved14
+    3300012: Incurved15
+    3300014: Incurved16
+    3300016: Incurved2
+    3300018: Incurved3
+    3300020: Incurved4
+    3300022: Incurved5
+    3300024: Incurved6
+    3300026: Incurved7
+    3300028: Incurved8
+    3300030: Incurved9
+    4300000: Incurved1
+    4300002: Incurved2
+    4300004: Incurved3
+    4300006: Incurved4
+    4300008: Incurved5
+    4300010: Incurved6
+    4300012: Incurved7
+    4300014: Incurved8
+    4300016: Incurved9
+    4300018: Incurved10
+    4300020: Incurved11
+    4300022: Incurved12
+    4300024: Incurved13
+    4300026: Incurved14
+    4300028: Incurved15
+    4300030: Incurved16
+    6400000: Incurved1
+    6400002: Incurved10
+    6400004: Incurved11
+    6400006: Incurved12
+    6400008: Incurved13
+    6400010: Incurved14
+    6400012: Incurved15
+    6400014: Incurved16
+    6400016: Incurved2
+    6400018: Incurved3
+    6400020: Incurved4
+    6400022: Incurved5
+    6400024: Incurved6
+    6400026: Incurved7
+    6400028: Incurved8
+    6400030: Incurved9
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

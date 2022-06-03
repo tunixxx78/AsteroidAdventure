@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 0698baf74d4a7e540b090123870656bb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Pointy1
+    100004: Pointy10
+    100006: Pointy11
+    100008: Pointy12
+    100010: Pointy13
+    100012: Pointy14
+    100014: Pointy15
+    100016: Pointy16
+    100018: Pointy2
+    100020: Pointy3
+    100022: Pointy4
+    100024: Pointy5
+    100026: Pointy6
+    100028: Pointy7
+    100030: Pointy8
+    100032: Pointy9
+    400000: //RootNode
+    400002: Pointy1
+    400004: Pointy10
+    400006: Pointy11
+    400008: Pointy12
+    400010: Pointy13
+    400012: Pointy14
+    400014: Pointy15
+    400016: Pointy16
+    400018: Pointy2
+    400020: Pointy3
+    400022: Pointy4
+    400024: Pointy5
+    400026: Pointy6
+    400028: Pointy7
+    400030: Pointy8
+    400032: Pointy9
+    2100000: No Name
+    2300000: Pointy1
+    2300002: Pointy10
+    2300004: Pointy11
+    2300006: Pointy12
+    2300008: Pointy13
+    2300010: Pointy14
+    2300012: Pointy15
+    2300014: Pointy16
+    2300016: Pointy2
+    2300018: Pointy3
+    2300020: Pointy4
+    2300022: Pointy5
+    2300024: Pointy6
+    2300026: Pointy7
+    2300028: Pointy8
+    2300030: Pointy9
+    3300000: Pointy1
+    3300002: Pointy10
+    3300004: Pointy11
+    3300006: Pointy12
+    3300008: Pointy13
+    3300010: Pointy14
+    3300012: Pointy15
+    3300014: Pointy16
+    3300016: Pointy2
+    3300018: Pointy3
+    3300020: Pointy4
+    3300022: Pointy5
+    3300024: Pointy6
+    3300026: Pointy7
+    3300028: Pointy8
+    3300030: Pointy9
+    4300000: Pointy1
+    4300002: Pointy2
+    4300004: Pointy3
+    4300006: Pointy4
+    4300008: Pointy5
+    4300010: Pointy6
+    4300012: Pointy7
+    4300014: Pointy8
+    4300016: Pointy9
+    4300018: Pointy10
+    4300020: Pointy11
+    4300022: Pointy12
+    4300024: Pointy13
+    4300026: Pointy14
+    4300028: Pointy15
+    4300030: Pointy16
+    6400000: Pointy1
+    6400002: Pointy10
+    6400004: Pointy11
+    6400006: Pointy12
+    6400008: Pointy13
+    6400010: Pointy14
+    6400012: Pointy15
+    6400014: Pointy16
+    6400016: Pointy2
+    6400018: Pointy3
+    6400020: Pointy4
+    6400022: Pointy5
+    6400024: Pointy6
+    6400026: Pointy7
+    6400028: Pointy8
+    6400030: Pointy9
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

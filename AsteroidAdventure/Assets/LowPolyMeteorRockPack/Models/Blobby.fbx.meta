@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 672231261dae828429d725de7797f770
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Blobby1
+    100004: Blobby10
+    100006: Blobby11
+    100008: Blobby12
+    100010: Blobby13
+    100012: Blobby14
+    100014: Blobby15
+    100016: Blobby16
+    100018: Blobby2
+    100020: Blobby3
+    100022: Blobby4
+    100024: Blobby5
+    100026: Blobby6
+    100028: Blobby7
+    100030: Blobby8
+    100032: Blobby9
+    400000: //RootNode
+    400002: Blobby1
+    400004: Blobby10
+    400006: Blobby11
+    400008: Blobby12
+    400010: Blobby13
+    400012: Blobby14
+    400014: Blobby15
+    400016: Blobby16
+    400018: Blobby2
+    400020: Blobby3
+    400022: Blobby4
+    400024: Blobby5
+    400026: Blobby6
+    400028: Blobby7
+    400030: Blobby8
+    400032: Blobby9
+    2100000: No Name
+    2300000: Blobby1
+    2300002: Blobby10
+    2300004: Blobby11
+    2300006: Blobby12
+    2300008: Blobby13
+    2300010: Blobby14
+    2300012: Blobby15
+    2300014: Blobby16
+    2300016: Blobby2
+    2300018: Blobby3
+    2300020: Blobby4
+    2300022: Blobby5
+    2300024: Blobby6
+    2300026: Blobby7
+    2300028: Blobby8
+    2300030: Blobby9
+    3300000: Blobby1
+    3300002: Blobby10
+    3300004: Blobby11
+    3300006: Blobby12
+    3300008: Blobby13
+    3300010: Blobby14
+    3300012: Blobby15
+    3300014: Blobby16
+    3300016: Blobby2
+    3300018: Blobby3
+    3300020: Blobby4
+    3300022: Blobby5
+    3300024: Blobby6
+    3300026: Blobby7
+    3300028: Blobby8
+    3300030: Blobby9
+    4300000: Blobby1
+    4300002: Blobby2
+    4300004: Blobby3
+    4300006: Blobby4
+    4300008: Blobby5
+    4300010: Blobby6
+    4300012: Blobby7
+    4300014: Blobby8
+    4300016: Blobby9
+    4300018: Blobby10
+    4300020: Blobby11
+    4300022: Blobby12
+    4300024: Blobby13
+    4300026: Blobby14
+    4300028: Blobby15
+    4300030: Blobby16
+    6400000: Blobby1
+    6400002: Blobby10
+    6400004: Blobby11
+    6400006: Blobby12
+    6400008: Blobby13
+    6400010: Blobby14
+    6400012: Blobby15
+    6400014: Blobby16
+    6400016: Blobby2
+    6400018: Blobby3
+    6400020: Blobby4
+    6400022: Blobby5
+    6400024: Blobby6
+    6400026: Blobby7
+    6400028: Blobby8
+    6400030: Blobby9
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
