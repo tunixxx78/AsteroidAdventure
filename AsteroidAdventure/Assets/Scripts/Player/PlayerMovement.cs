@@ -7,8 +7,9 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody plrRb;
     JoystickManager joystickManager;
     [SerializeField] float moveSpeed;
-    [SerializeField] Transform startPosition;
+    [SerializeField] Vector3 startPosition = new Vector3(0, -13, 0);
     [SerializeField] GameObject plr;
+    
 
     private void Awake()
     {
@@ -31,22 +32,26 @@ public class PlayerMovement : MonoBehaviour
         {
 
             plrRb.AddForce(Vector3.up * moveSpeed * Time.deltaTime, ForceMode.Impulse);
+            plr.transform.localRotation = Quaternion.Euler(0, -90, 0);
         }
         if (y < 0)
         {
 
             plrRb.AddForce(-Vector3.up * moveSpeed * Time.deltaTime, ForceMode.Impulse);
+            plr.transform.localRotation = Quaternion.Euler(0, 90, 0);
         }
 
         if (z > 0)
         {
 
             plrRb.AddForce(Vector3.right * moveSpeed * Time.deltaTime, ForceMode.Impulse);
+            plr.transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
         if (z < 0)
         {
 
             plrRb.AddForce(-Vector3.right * moveSpeed * Time.deltaTime, ForceMode.Impulse);
+            plr.transform.localRotation = Quaternion.Euler(0, -180, 0);
         }
     }
 
@@ -54,9 +59,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Obstacle")
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
 
-            //Instantiate(plr, startPosition.position, Quaternion.identity);
+            plr.transform.position = startPosition;
+
+            gameObject.SetActive(true);
+            
         }
     }
+
+    
 }

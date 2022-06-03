@@ -7,6 +7,20 @@ public class ButtonsManager : MonoBehaviour
     [SerializeField] float delayTimeForForcefield;
     [SerializeField] Animator forceAnimator;
 
+    private void Start()
+    {
+        forceAnimator = GetComponentInParent<Animator>();
+        ForcefieldAttack();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            ForcefieldAttack();
+        }
+    }
+
     public void ForcefieldAttack()
     {
         forceAnimator.SetTrigger("Expand");

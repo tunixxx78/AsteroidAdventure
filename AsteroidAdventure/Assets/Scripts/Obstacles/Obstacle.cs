@@ -29,7 +29,7 @@ public class Obstacle : MonoBehaviour
 
         if (collider.gameObject.tag == "DangerZone")
         {
-            GetComponent<MeshRenderer>().material = dangerZone;
+            GetComponentInChildren<MeshRenderer>().material = dangerZone;
         }
     }
 }
