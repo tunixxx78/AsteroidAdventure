@@ -5,13 +5,16 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     Rigidbody obsRB;
-    [SerializeField] int Verticaldirection, horizontalDirection, depthDirection;
+    [SerializeField] int Verticaldirection, horizontalDirection, depthDirection, pointsFromDestruction;
     [SerializeField] Material dangerZone;
     public float speed;
+
+    PointsManager pointsManager;
 
     private void Awake()
     {
         obsRB = GetComponent<Rigidbody>();
+        pointsManager = FindObjectOfType<PointsManager>();
     }
 
     private void FixedUpdate()
@@ -30,6 +33,12 @@ public class Obstacle : MonoBehaviour
         if (collider.gameObject.tag == "DangerZone")
         {
             GetComponentInChildren<MeshRenderer>().material = dangerZone;
+        }
+
+        if (collider.gameObject.tag == "PLRAmmo")
+        {
+            pointsManager.plrPoints = pointsManager.plrPoints + pointsFromDestruction;
+            Destroy(gameObject);
         }
     }
 }

@@ -9,15 +9,18 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] Vector3 startPosition = new Vector3(0, -13, 0);
     [SerializeField] GameObject plr;
-    [SerializeField] Transform player;
+    [SerializeField] GameObject[] bullets;
+    [SerializeField] Transform player, bulletSpawnpoint;
 
     public int plrLives;
+    GameManager gameManager;
     
 
     private void Awake()
     {
         plrRb = GetComponent<Rigidbody>();
         joystickManager = FindObjectOfType<JoystickManager>();
+        gameManager = FindObjectOfType<GameManager>();
         plrLives = 3;
     }
 
@@ -65,6 +68,28 @@ public class PlayerMovement : MonoBehaviour
             plrRb.AddForce(-Vector3.right * moveSpeed * Time.deltaTime, ForceMode.VelocityChange);
             plr.transform.localRotation = Quaternion.Euler(0, -180, 0);
         }
+    }
+
+    public void ShootingOne()
+    {
+        Debug.Log("BANGBANGBANG");
+
+        var bulletInstance = Instantiate(bullets[0], bulletSpawnpoint.position, bullets[0].transform.rotation);
+        bulletInstance.transform.Rotate(0, 0, 180);
+
+        if (plr.transform.rotation.eulerAngles.y == 180)
+        {
+            Debug.Log("ALUS ON KÄÄNTYNYT");
+            gameManager.shootLeft = true;
+            gameManager.shootRight = false;
+        }
+        else
+        {
+            gameManager.shootLeft = false;
+            gameManager.shootRight = true;
+        }
+        
+        Destroy(bulletInstance, 5f);
     }
 
     private void OnCollisionEnter(Collision collision)

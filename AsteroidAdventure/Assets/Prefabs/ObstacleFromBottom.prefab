@@ -129,6 +129,7 @@ MonoBehaviour:
   Verticaldirection: 1
   horizontalDirection: 0
   depthDirection: 0
+  pointsFromDestruction: 20
   dangerZone: {fileID: 2100000, guid: e77fbb036f0414c35aaf6ccb70c5f000, type: 2}
   speed: 2
 --- !u!1001 &1112743165180971639

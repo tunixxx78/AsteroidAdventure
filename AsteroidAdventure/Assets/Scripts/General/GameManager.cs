@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] int playerLives;
     [SerializeField] GameObject GameOverPanel;
     [SerializeField] TMP_Text lives;
+    public bool shootRight = false, shootLeft = false;
 
     PlayerMovement playerMovement;
 

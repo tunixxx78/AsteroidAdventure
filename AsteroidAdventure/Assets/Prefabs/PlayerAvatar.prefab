@@ -116,7 +116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5794552159291897023
 Transform:
   m_ObjectHideFlags: 0
@@ -208,8 +208,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  startPosition: {fileID: 0}
+  startPosition: {x: 0, y: -13, z: 0}
   plr: {fileID: 0}
+  bullets: []
+  player: {fileID: 0}
+  bulletSpawnpoint: {fileID: 0}
+  plrLives: 0
 --- !u!54 &5794552159291896964
 Rigidbody:
   m_ObjectHideFlags: 0

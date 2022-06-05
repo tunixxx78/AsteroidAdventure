@@ -28,6 +28,11 @@ public class ButtonsManager : MonoBehaviour
         StartCoroutine(TurnOfForcefield(delayTimeForForcefield));
     }
 
+    public void PLRShoot()
+    {
+        FindObjectOfType<PlayerMovement>().ShootingOne();
+    }
+
     IEnumerator TurnOfForcefield(float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
