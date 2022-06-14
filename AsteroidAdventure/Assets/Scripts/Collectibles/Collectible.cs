@@ -19,6 +19,7 @@ public class Collectible : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             pointsManager.plrPoints = pointsManager.plrPoints + pointsAmount;
+            pointsManager.pointsForExtraLevels = pointsManager.pointsForExtraLevels + 1;
             FindObjectOfType<CollectibleSpawner>().SpawnCollectible();
             Destroy(gameObject);
 

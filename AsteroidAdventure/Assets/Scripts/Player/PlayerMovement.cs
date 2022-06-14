@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
         joystickManager = FindObjectOfType<JoystickManager>();
         gameManager = FindObjectOfType<GameManager>();
         plrLives = 3;
+        PlayerPrefs.SetInt("PlayerLives", plrLives);
     }
 
     private void Update()
@@ -97,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Obstacle")
         {
             plrLives = plrLives - 1;
+            PlayerPrefs.SetInt("PlayerLives", plrLives);
 
             gameObject.SetActive(false);
 
