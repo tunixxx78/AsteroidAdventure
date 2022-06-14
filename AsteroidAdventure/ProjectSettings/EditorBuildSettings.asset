@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ExtraOne.unity
     guid: 59d32d82ccccf431abd6c194cdfb0fea
+  - enabled: 1
+    path: Assets/Scenes/ExtraTwo.unity
+    guid: bbde6341d16264099b323763186605cb
+  - enabled: 1
+    path: Assets/Scenes/ExtraThree.unity
+    guid: c4157b41d954f4d71b1890c790497053
   m_configObjects: {}

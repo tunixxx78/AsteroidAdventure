@@ -10,7 +10,7 @@ public class CollectibleSpawner : MonoBehaviour
     [SerializeField] float specialItemLiveSpan;
     
 
-    public int currentCollectible;
+    public int currentCollectible, currentCollectible2;
 
     PointsManager pointsManager;
 
@@ -32,7 +32,7 @@ public class CollectibleSpawner : MonoBehaviour
 
         if(pointsManager.pointsForExtraLevels == pointsManager.specialItemDelay)
         {
-            currentCollectible = Random.Range(0, specialCollectibles.Length);
+            currentCollectible2 = Random.Range(0, specialCollectibles.Length);
             Debug.Log("SPECIAL ITEM SPAWN");
         }
         else
@@ -51,7 +51,7 @@ public class CollectibleSpawner : MonoBehaviour
 
         if (pointsManager.pointsForExtraLevels == pointsManager.specialItemDelay)
         {
-            var collectibleInstance2 = Instantiate(specialCollectibles[currentCollectible], pos2, Quaternion.identity);
+            var collectibleInstance2 = Instantiate(specialCollectibles[currentCollectible2], pos2, Quaternion.identity);
             collectibleInstance = Instantiate(collectibles[currentCollectible], pos, Quaternion.identity);
 
             Destroy(collectibleInstance2, specialItemLiveSpan);

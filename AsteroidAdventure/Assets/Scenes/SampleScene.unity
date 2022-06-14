@@ -1077,6 +1077,8 @@ MonoBehaviour:
   - {fileID: 2550172183340416852, guid: 933f1f7b294b44d32b23163baccc3eed, type: 3}
   specialCollectibles:
   - {fileID: 5937178310227768483, guid: b983c9b98c9f749bf95c6ff029b1b996, type: 3}
+  - {fileID: 5937178310227768483, guid: 7afdb5175e1584c00bab513b0d634ee5, type: 3}
+  - {fileID: 5937178310227768483, guid: eeb0afd89f297435e82b603117a9f6a9, type: 3}
   specialItemLiveSpan: 10
   currentCollectible: 0
 --- !u!64 &512460115
@@ -3789,6 +3791,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1978355483145007999, guid: 58d1e4b84d8c34386b3676c096bef485, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 1829332220}
     - target: {fileID: 1978355483145007999, guid: 58d1e4b84d8c34386b3676c096bef485, type: 3}
       propertyPath: points
       value: 

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5937178310227768477}
   - component: {fileID: 5937178310227768482}
   m_Layer: 0
-  m_Name: SpecialStageCollectible
+  m_Name: SpecialStageCollectibleTwo
   m_TagString: SpecialStage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5c1d2ddb108c04b41a276fcae1c61f70, type: 2}
+  - {fileID: 2100000, guid: baf5501d0b5c84647bf72350b9d4a134, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,4 +109,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsAmount: 250
-  targetSceneIndex: 2
+  targetSceneIndex: 3
