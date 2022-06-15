@@ -6,7 +6,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] GameObject plr;
+    [SerializeField] GameObject plr, cockpitWiev;
     [SerializeField] Vector3 spawnPosition = new Vector3(0, -13, 0);
     [SerializeField] int playerLives;
     [SerializeField] GameObject GameOverPanel;
@@ -27,6 +27,11 @@ public class GameManager : MonoBehaviour
         {
             playerLives = playerMovement.plrLives;
             lives.text = playerLives.ToString();
+        }
+
+        if(scene.buildIndex == 1)
+        {
+            cockpitWiev.SetActive(false);
         }
         
     }

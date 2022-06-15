@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Obstacle : MonoBehaviour
 {
@@ -37,8 +38,20 @@ public class Obstacle : MonoBehaviour
 
         if (collider.gameObject.tag == "PLRAmmo")
         {
-            pointsManager.plrPoints = pointsManager.plrPoints + pointsFromDestruction;
-            Destroy(gameObject);
+            Scene scene = SceneManager.GetActiveScene();
+            if (scene.buildIndex == 2)
+            {
+                FindObjectOfType<StageOneManager>().S1Points = FindObjectOfType<StageOneManager>().S1Points + pointsFromDestruction;
+                //pointsManager.plrPoints = pointsManager.plrPoints + pointsFromDestruction;
+                Destroy(gameObject);
+            }
+            else
+            {
+                pointsManager.plrPoints = pointsManager.plrPoints + pointsFromDestruction;
+                Destroy(gameObject);
+            }
+            
+
         }
     }
 }
