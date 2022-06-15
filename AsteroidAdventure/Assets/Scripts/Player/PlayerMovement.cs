@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,8 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] Vector3 startPosition = new Vector3(0, -13, 0);
     [SerializeField] GameObject plr;
-    [SerializeField] GameObject[] bullets;
-    [SerializeField] Transform player, bulletSpawnpoint;
+    public GameObject[] bullets;
+    [SerializeField] Transform bulletSpawnpoint;
+    public Transform player;
 
     public int plrLives;
     GameManager gameManager;
@@ -21,14 +23,31 @@ public class PlayerMovement : MonoBehaviour
         plrRb = GetComponent<Rigidbody>();
         joystickManager = FindObjectOfType<JoystickManager>();
         gameManager = FindObjectOfType<GameManager>();
+        
         plrLives = 3;
         PlayerPrefs.SetInt("PlayerLives", plrLives);
     }
 
     private void Update()
     {
-        Move();
+        Scene scene = SceneManager.GetActiveScene();
+        if(scene.buildIndex == 1)
+        {
+            Move();
+        }
+        
 
+        
+        if(scene.buildIndex == 2)
+        {
+            CroshairMove();
+        }
+    }
+
+    void CroshairMove()
+    {
+
+        player.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 66f));
     }
 
     private void Move()
@@ -92,6 +111,7 @@ public class PlayerMovement : MonoBehaviour
         
         Destroy(bulletInstance, 5f);
     }
+
 
     private void OnCollisionEnter(Collision collision)
     {
