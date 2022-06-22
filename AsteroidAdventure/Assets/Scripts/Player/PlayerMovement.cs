@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         
 
         
-        if(scene.buildIndex == 2)
+        if(scene.buildIndex == 2 || scene.buildIndex == 3)
         {
             CroshairMove();
         }
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     void CroshairMove()
     {
 
-        player.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 66f));
+        player.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, (Input.mousePosition.y + 30), 66f));
     }
 
     private void Move()

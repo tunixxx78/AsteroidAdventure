@@ -10,6 +10,7 @@ TagManager:
   - Collectible
   - PLRAmmo
   - SpecialStage
+  - BuildinBlock
   layers:
   - Default
   - TransparentFX
