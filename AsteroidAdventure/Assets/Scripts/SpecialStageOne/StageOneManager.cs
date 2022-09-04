@@ -9,7 +9,7 @@ public class StageOneManager : MonoBehaviour
     public int S1Points;
     [SerializeField] float levelStartTime, timer;
     [SerializeField] bool timerIsOn = false;
-    [SerializeField] GameObject backToMainGame, gun, crosshair;
+    [SerializeField] GameObject backToMainGame, gun, crosshair, cockpitPanel;
 
     [SerializeField] Camera cam;
 
@@ -51,7 +51,8 @@ public class StageOneManager : MonoBehaviour
 
             timerIsOn = false;
             time.text = 0.ToString();
-           
+
+            cockpitPanel.SetActive(false);
             backToMainGame.SetActive(true);
         }
 

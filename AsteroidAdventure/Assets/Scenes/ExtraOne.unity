@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -180,7 +180,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &567429173
 GameObject:
@@ -220,6 +220,7 @@ MonoBehaviour:
   backToMainGame: {fileID: 1194340816}
   gun: {fileID: 2035088529}
   crosshair: {fileID: 373055440}
+  cockpitPanel: {fileID: 1506113213}
   cam: {fileID: 1650843817}
 --- !u!4 &567429175
 Transform:
@@ -454,7 +455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -165}
+  m_AnchoredPosition: {x: 0, y: 7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194340818
@@ -632,6 +633,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451627277}
   m_CullTransparentMesh: 1
+--- !u!1 &1506113213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4052960136485707921, guid: b8ff9f698fd2c4a5183d3a8dde2f284c, type: 3}
+  m_PrefabInstance: {fileID: 1816634796}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1576266553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -755,7 +761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2935722024117208652, guid: b8ff9f698fd2c4a5183d3a8dde2f284c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2935722024117208652, guid: b8ff9f698fd2c4a5183d3a8dde2f284c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1109,7 +1115,7 @@ RectTransform:
   m_Children:
   - {fileID: 1194340817}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
